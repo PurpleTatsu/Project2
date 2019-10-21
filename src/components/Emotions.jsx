@@ -7,11 +7,12 @@ export default function Emotions(props) {
     <div id="emotions">
       <div id="instructions">
       <h3>イメージをクリックしてください！</h3>
-      <h3>１・リピート練習</h3>
-
+        <h3>１・リピート練習</h3>
+        <img id="feeling-helper" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/feeling-helper1.png?raw=true"/>
       <p>全てのカードを使い終わったら交代してお子さんに Are you~?の質問をしてもらいます。始めのうちはなかなか言えないと思うので、お手伝いしてあげながら練習してみましょう！</p>
       <h3>２・Are you~?の練習</h3>
-      <p>Yes! No! はもう答えられると思うので、まずお母さんが全てのカードを使ってAre you ~? の質問をします。</p>
+        <p>Yes! No! はもう答えられると思うので、まずお母さんが全てのカードを使ってAre you ~? の質問をします。</p>
+        <img id="feeling-helper" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/feeling-helper2.png?raw=true"/>
       <h3>３・ゲーム</h3>
       <p>ゲームをしましょう！ここではブロックを積み上げるゲームをします。（何かお家にあるゲームでももちろんOKです！１人ずつ交代しながらプレーするゲームであれば使えます。）</p>
 

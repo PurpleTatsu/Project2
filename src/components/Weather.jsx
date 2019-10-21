@@ -4,6 +4,14 @@ import React from 'react';
 export default function Weather(props) {
   return (
     <div>
+      <div id="instructions">
+        <h3>１・１枚ずつカードを見せながらリピート練習</h3>
+        <h3>２・♬ Weather song</h3>
+        <p>絵を見せながらだったり、ダンスをしたりしながら歌うと楽しいです。</p>
+        <h3>３・今日の天気を聞く　</h3>
+        <p>練習を始めて間もない頃は、すべてのカードを並べて今日の天気をタッチさせてから、リピートしてもらってOK!
+</p>
+</div>
       <div id="flashcards">
         <img id="sunny" className="flashcard" src={require("/Users/Tatsu/SEI/project-2/src/components/images/sunny.png")} onClick={props.handleClick} alt="" />
         <img id="rainy" className="flashcard" src={require("/Users/Tatsu/SEI/project-2/src/components/images/rainy.png")} onClick={props.handleClick} alt="" />

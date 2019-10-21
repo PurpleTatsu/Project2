@@ -121,9 +121,8 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 flex-direction: row;
-/* margin: 70px auto 0 300px; */
+margin: 70px auto 0 10px;
 position: relative;
-margin-top: 100px;
 }
 
 #flashcards img {
@@ -134,5 +133,10 @@ box-shadow: 5px 5px 5px #FFC8FF;
 }
 
 #instructions{
-  margin-top: 100px;
+  margin: 50px 0 0 5px;
+}
+
+#feeling-helper{
+  width: 500px;
+  margin: 0;
 }
