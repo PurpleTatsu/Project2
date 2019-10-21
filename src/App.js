@@ -7,6 +7,8 @@ import UchiDeEnglish from './components/UchiDeEnglish'
 import Weather from './components/Weather'
 import Emotions from './components/Emotions'
 import { getFlashcards } from './components/api-helper';
+import { Route } from 'react-router-dom';
+
 
 
 class App extends React.Component {
@@ -51,15 +53,12 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <main>
-          <Emotions
-            handleClick={this.handleClick}
-          />
+        
+          <Route exact path="/" render={() => <UchiDeEnglish />} />
 
-          {/* <Route path="/:flashcard" render={(props) => <Emotions flashcard={props.match.params.flashcard} />} /> */}
+          <Route path="/Weather" render={() => (<Weather handleClick={this.handleClick} />)} />
+          <Route path="/Emotions" render={() => (<Emotions handleClick={this.handleClick} />)} />
 
-
-          {/* <UchiDeEnglish /> */}
-          {/* <Weather /> */}
         </main>
         <Footer />
       </div>

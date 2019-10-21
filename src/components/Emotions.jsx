@@ -1,11 +1,28 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom';
+
 
 export default function Emotions(props) {
-  console.log(props)
   return (
     <div id="emotions">
-      <div id="emotions-flashcards">
+      <div id="instructions">
+      <h3>イメージをクリックしてください！</h3>
+      <h3>１・リピート練習</h3>
 
+      <p>全てのカードを使い終わったら交代してお子さんに Are you~?の質問をしてもらいます。始めのうちはなかなか言えないと思うので、お手伝いしてあげながら練習してみましょう！</p>
+      <h3>２・Are you~?の練習</h3>
+      <p>Yes! No! はもう答えられると思うので、まずお母さんが全てのカードを使ってAre you ~? の質問をします。</p>
+      <h3>３・ゲーム</h3>
+      <p>ゲームをしましょう！ここではブロックを積み上げるゲームをします。（何かお家にあるゲームでももちろんOKです！１人ずつ交代しながらプレーするゲームであれば使えます。）</p>
+
+      <ul>
+        <li>＊カードを全て裏にして一束にして置く</li>
+        <li>＊お母さんが１枚カードを引いてAre you~?の質問をする</li>
+        <li>＊お子さんが答えたら、お子さんが１つブロックを置く</li>
+        <li>＊ブロックが倒れるまで交代しながら続ける</li>
+      </ul>
+      </div>
+      <div id="flashcards">
         <img id="hungry" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/hungry.png?raw=true" onClick={props.handleClick} />
 
         <img id="sleepy" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/sleepy.png?raw=true" onClick={props.handleClick} />
