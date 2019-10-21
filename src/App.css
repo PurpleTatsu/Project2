@@ -112,10 +112,11 @@ body{
   margin: 5px;
   border: 1px solid black;
 }
-#emotions{
+#emotions, #weather{
 width: 100%;
 display: flex;
 }
+
 #flashcards{
 display: flex;
 flex-wrap: wrap;

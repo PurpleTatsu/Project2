@@ -3,11 +3,11 @@ import React from 'react';
 
 export default function Weather(props) {
   return (
-    <div>
+    <div id="weather">
       <div id="instructions">
         <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/weather-helper1.png?raw=true" />
         <h3>１・１枚ずつカードを見せながらリピート練習</h3>
-        <img id="weather-helper" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/weather-helper2.jpeg?raw=true" />
+        <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/weather-helper2.jpeg?raw=true" />
         <h3>２・♬ Weather song</h3>
         <p>絵を見せながらだったり、ダンスをしたりしながら歌うと楽しいです。</p>
         <h3>３・今日の天気を聞く　</h3>
