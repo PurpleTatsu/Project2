@@ -1,19 +1,27 @@
 
 #nav{
-height: 100px;
+  height: 50px;
   background: #A0E6FB;
   display: flex;
-  justify-content: space-around;
-}
-
-
-#footer{
-  position: fixed;
-  background: #A0E6FB;
-  text-align: center;
   width: 100%;
-
+  justify-content: space-around;
+  top: 0;
+  bottom: inherit;
+  position: fixed;
+  left: 0;
+  z-index: 1;
 }
+#nav h1{
+  font-size: 1.6em;
+  margin: 0;
+  line-height: 50px;
+}
+#nav h2{
+  font-size: 1em;
+  margin: 0;
+  line-height: 50px;
+}
+
 #home{
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -27,7 +35,7 @@ height: 100px;
   width: 400px;
 }
 #intro h1{
-  font-size: 4em;
+  font-size: 2em;
   text-align: center;
 }
 #intro p{
@@ -54,11 +62,24 @@ height: 100px;
   grid-row-start: 6;
   grid-row-end: end;
 }
+
+#footer{
+  position: fixed;
+  background: #A0E6FB;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+
 #stickers{
   display: flex;
   justify-content: space-evenly;
-  margin-top:30px;
-  height: 50%;
+  margin-top:5px;
+  height: 100px;
+}
+#stickers img{
+  height: 80px;
+  width: auto;
 }
 
 #activities{
@@ -71,22 +92,26 @@ height: 100px;
   height: 70px;
   
 }
-
-#flashcards, #emotions-flashcards{
- display: flex;
- flex-wrap: wrap;
-  width: calc(100% - 210px);
-  position: relative;
-  left: 400px;
-  background: green;
+#emotions{
+width: 100%;
+}
+#emotions-flashcards{
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+flex-direction: row;
+margin: 0 auto 0 300px;
+position: relative;
+top: 0;
+margin-top: 50px;
+background: green;
+padding-left: 30%;
+padding-right: 30%;
 }
 
-#flashcards img, #emotions-flashcards img{
-  width: 486px;
-  height: 607px;
-  
-}
-
-#snowy, #windy{
-  left: 20%;
+#emotions-flashcards img {
+border: 5px solid red;
+margin: 0 8px;
+height: auto;
+width: 200px;
 }
