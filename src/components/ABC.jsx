@@ -4,7 +4,7 @@ export default function ABC(props) {
   return (
     <div id="abc">
       <div id="abc-instructions" >
-        <h3>ABC</h3>
+        <h3 id="title">ABC</h3>
         <p>♬ ABC song
 ABCの表
 

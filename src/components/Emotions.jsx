@@ -6,7 +6,7 @@ export default function Emotions(props) {
   return (
     <div id="emotions">
       <div id="instructions">
-        <h3>イメージをクリックしてください！</h3>
+        <h2 id="title">Feelings</h2>
         <h3>１・リピート練習</h3>
         <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/feeling-helper1.png?raw=true" />
         <p>全てのカードを使い終わったら交代してお子さんに Are you~?の質問をしてもらいます。始めのうちはなかなか言えないと思うので、お手伝いしてあげながら練習してみましょう！</p>

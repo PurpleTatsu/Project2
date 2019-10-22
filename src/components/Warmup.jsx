@@ -5,7 +5,7 @@ export default function Warmup() {
   return (
     <div id="warmup">
       <div id="instructions">
-        <h3>Warm Up</h3>
+        <h3 id="title">Warm Up</h3>
         <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/warmup-helper1.png?raw=true" />
         <p>Warm upをしましょう！１００円ショップで売ってるような色付きのボールを
           一斉に床に出して拾って持って来てもらいます。（箱はボールの収納用です）

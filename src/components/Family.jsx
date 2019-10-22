@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Family(props) {
   return (
-    <div id="export default" className="modal">
+    <div id="" className="modal">
       <div id="mom">
         <h2>＊Mom＊</h2>
         <p>今まで習ってきた英会話をMi-Chanにお家でちょこっとずつ教え中。</p>

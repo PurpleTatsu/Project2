@@ -3,8 +3,10 @@ import React from 'react';
 
 export default function Weather(props) {
   return (
+    
     <div id="weather">
       <div id="instructions">
+        <h2 id="title">Weather</h2>
         <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/weather-helper1.png?raw=true" />
         <h3>１・１枚ずつカードを見せながらリピート練習</h3>
         <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/weather-helper2.jpeg?raw=true" />

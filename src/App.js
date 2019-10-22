@@ -60,30 +60,33 @@ class App extends React.Component {
   // hideModal = () => {
   //   this.setState({ show: false });
   // }
+   
 
   render() {
-    return (
-      <div className="App">
-        <Header />
-        <main>
+    
+      return (
+        <div className="App">
+          <Header />
+          <main>
 
-          <Route exact path="/" render={() => <UchiDeEnglish />} />
-          <Route path="/Warmup" render={() => (<Warmup handleClick={this.handleClick} />)} />
+            <Route exact path="/" render={() => <UchiDeEnglish />} />
+            <Route path="/Warmup" render={() => (<Warmup handleClick={this.handleClick} />)} />
 
-          <Route path="/Weather" render={() => (<Weather handleClick={this.handleClick} />)} />
-          <Route path="/Emotions" render={() => (<Emotions handleClick={this.handleClick} />)} />
-          <Route path="/Food" render={() => (<Food handleClick={this.handleClick} />)} />
-          <Route path="/Name" render={() => (<Name handleClick={this.handleClick} />)} />
-          <Route path="/Colors" render={() => (<Colors handleClick={this.handleClick} />)} />
-          <Route path="/ABC" render={() => (<ABC handleClick={this.handleClick} />)} />
-          <Route path="/YesNo" render={() => (<YesNo handleClick={this.handleClick} />)} />
-          <Route path="/DaysOfTheWeek" render={() => (<DaysOfTheWeek handleClick={this.handleClick} />)} />
+            <Route path="/Weather" render={() => (<Weather handleClick={this.handleClick} />)} />
+            <Route path="/Emotions" render={() => (<Emotions handleClick={this.handleClick} />)} />
+            <Route path="/Food" render={() => (<Food handleClick={this.handleClick} />)} />
+            <Route path="/Name" render={() => (<Name handleClick={this.handleClick} />)} />
+            <Route path="/Colors" render={() => (<Colors handleClick={this.handleClick} />)} />
+            <Route path="/ABC" render={() => (<ABC handleClick={this.handleClick} />)} />
+            <Route path="/YesNo" render={() => (<YesNo handleClick={this.handleClick} />)} />
+            <Route path="/DaysOfTheWeek" render={() => (<DaysOfTheWeek handleClick={this.handleClick} />)} />
 
 
-        </main>
-        <Footer />
-      </div>
-    );
+          </main>
+          <Footer />
+        </div>
+      );
+    }
   }
-}
-export default App;
+
+  export default App;

@@ -5,6 +5,7 @@ export default function Food(props) {
   return (
     <div id="food">
       <div id="instructions" >
+        <h2 id="title">Food</h2>
         <h3>1.フードカードのリピート練習</h3>
         <h3>2. カードタッチゲーム</h3>
         <p>全てのカードを表向きにおく</p>

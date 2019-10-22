@@ -5,7 +5,7 @@ export default function Colors(props) {
   return (
     <div id="colors">
       <div id="colors-instructions">
-        <h2>What color is this?</h2>
+        <h2 id="title">What color is this?</h2>
         <h3>１・color cardsのリピート練習</h3>
         <h3>２・全てのカードを裏返す</h3>
         <h3>３・お母さんが１枚カードをひっくり返しながら・・・</h3>
