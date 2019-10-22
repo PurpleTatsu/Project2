@@ -110,9 +110,9 @@ body{
   width: 210px;
   height: 70px;
   margin: 5px;
-  border: 1px solid black;
+  box-shadow: 5px 5px 5px lightskyblue;
 }
-#emotions, #weather{
+#emotions, #weather, #food, #warmup, #abc, #colors, #daysoftheweek, #months, #name, #numbers, #yesno{
 width: 100%;
 display: flex;
 }
@@ -128,16 +128,19 @@ position: relative;
 
 #flashcards img {
 margin: 8px;
-height: auto;
-width: 150px;
+height: 200px;
+width: auto;
 box-shadow: 5px 5px 5px #FFC8FF;
 }
 
 #instructions{
-  margin: 50px 0 0 5px;
+  margin: 60px 0 0 5px;
+  background: rgba(255, 255, 255, 0.8);
+text-align: center;
 }
 
 #helper-image{
-  width: 500px;
+  width: 80%;
   margin: 0;
 }
+

@@ -8,6 +8,10 @@ import Weather from './components/Weather'
 import Emotions from './components/Emotions'
 import { getFlashcards } from './components/api-helper';
 import { Route } from 'react-router-dom';
+import Food from './components/Food'
+import Warmup from './components/Warmup'
+import Name from './components/Name'
+
 
 
 
@@ -53,11 +57,15 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <main>
-        
+
           <Route exact path="/" render={() => <UchiDeEnglish />} />
+          <Route path="/Warmup" render={() => (<Warmup handleClick={this.handleClick} />)} />
 
           <Route path="/Weather" render={() => (<Weather handleClick={this.handleClick} />)} />
           <Route path="/Emotions" render={() => (<Emotions handleClick={this.handleClick} />)} />
+          <Route path="/Food" render={() => (<Food handleClick={this.handleClick} />)} />
+          <Route path="/Name" render={() => (<Name handleClick={this.handleClick} />)} />
+
 
         </main>
         <Footer />
