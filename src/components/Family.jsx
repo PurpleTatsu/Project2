@@ -19,7 +19,6 @@ export default function Family(props) {
       <h2>＊Yu-Chan＊</h2>
       <p>英語が大得意なMi-Chanのお姉ちゃん。夢は世界で活躍するバレリーナ。</p>
 
-
     </div>
   )
 }

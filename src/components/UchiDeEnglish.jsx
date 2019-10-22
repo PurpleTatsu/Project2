@@ -14,7 +14,7 @@ export default function UchiDeEnglish() {
       </div>
       <div id="characters" className="characters">
         <img id="family" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/characters.png?raw=true" alt="family" />
-        {/* <img id="mom" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/characters.png?raw=true" alt="mom" /> */}
+        
         <Activities />
       </div>
 

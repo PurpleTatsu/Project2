@@ -23,32 +23,32 @@ ABCの表がたくさん販売されているのでお気に入りを
         <p>アルファベットで一番先に覚えるのはほとんどが自分の名前です。例えばアルファベットの表を見ながら「M-ChanのMだ〜！」と言いながら何かと関連づけて練習すると覚えやすいようです。他にも家族の名前や好きなお人形やキャラクターの名前を言いながらアルファベットを教えていくとだんだん覚えてくれます。</p>
       </div >
       <div id="abc-flashcards">
-        <section><h1 id="">A</h1></section>
-        <section><h1 id="">B</h1></section>
-        <section><h1 id="">C</h1></section>
-        <section><h1 id="">D</h1></section>
-        <section><h1 id="">E</h1></section>
-        <section><h1 id="">F</h1></section>
-        <section><h1 id="">G</h1></section>
-        <section><h1 id="">H</h1></section>
-        <section><h1 id="">I</h1></section>
-        <section><h1 id="">J</h1></section>
-        <section><h1 id="">K</h1></section>
-        <section><h1 id="">L</h1></section>
-        <section><h1 id="">M</h1></section>
-        <section><h1 id="">N</h1></section>
-        <section><h1 id="">O</h1></section>
-        <section><h1 id="">P</h1></section>
-        <section><h1 id="">Q</h1></section>
-        <section><h1 id="">R</h1></section>
-        <section><h1 id="">S</h1></section>
-        <section><h1 id="">T</h1></section>
-        <section><h1 id="">U</h1></section>
-        <section><h1 id="">V</h1></section>
-        <section><h1 id="">W</h1></section>
-        <section><h1 id="">X</h1></section>
-        <section><h1 id="">Y</h1></section>
-        <section><h1 id="">Z</h1></section>
+        <section id="eigh" onClick={props.handleClick}>A</section>
+        <section id="B" onClick={props.handleClick}>B</section>
+        <section id="C" onClick={props.handleClick}>C</section>
+        <section id="D" onClick={props.handleClick}>D</section>
+        <section id="e" onClick={props.handleClick}>E</section>
+        <section id="f" onClick={props.handleClick}>F</section>
+        <section id="g" onClick={props.handleClick}>G</section>
+        <section id="h" onClick={props.handleClick}>H</section>
+        <section id="I" onClick={props.handleClick}>I</section>
+        <section id="J" onClick={props.handleClick}>J</section>
+        <section id="K" onClick={props.handleClick}>K</section>
+        <section id="L" onClick={props.handleClick}>L</section>
+        <section id="M" onClick={props.handleClick}>M</section>
+        <section id="N" onClick={props.handleClick}>N</section>
+        <section id="O" onClick={props.handleClick}>O</section>
+        <section id="P" onClick={props.handleClick}>P</section>
+        <section id="Q" onClick={props.handleClick}>Q</section>
+        <section id="R" onClick={props.handleClick}>R</section>
+        <section id="S" onClick={props.handleClick}>S</section>
+        <section id="T" onClick={props.handleClick}>T</section>
+        <section id="U" onClick={props.handleClick}>U</section>
+        <section id="V" onClick={props.handleClick}>V</section>
+        <section id="W" onClick={props.handleClick}>W</section>
+        <section id="X" onClick={props.handleClick}>X</section>
+        <section id="Y" onClick={props.handleClick}>Y</section>
+        <section id="Z" onClick={props.handleClick}>Z</section>
 
       </div>
 

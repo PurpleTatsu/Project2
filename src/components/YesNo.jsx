@@ -3,7 +3,7 @@ import React from 'react';
 export default function YesNo(props) {
   return (
     <div id="yesno">
-      <div id="instructions">
+      <div id="yesno-instructions">
         <h2 id="title">Yes! No!</h2>
         <img></img>
         <p>Foodで使ったフードカードを使ってYes と No の使い方を練習しましょう！まずはフードカートの復習から始めます。</p>
@@ -37,8 +37,8 @@ export default function YesNo(props) {
       </div>
       <div id="flashcards">
         <h2>イメージをクリックしてください！</h2>
-        <img id="yes" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/yes.jpg?raw=true" onClick={props.handleClick} alt="" />
-        <img id="no" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/no.jpg?raw=true" onClick={props.handleClick} alt="" />
+        <img id="yes" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/yes.png?raw=true" onClick={props.handleClick} alt="" />
+        <img id="no" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/no.png?raw=true" onClick={props.handleClick} alt="" />
 
       </div>
     </div>
