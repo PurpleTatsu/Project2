@@ -11,6 +11,8 @@ import { Route } from 'react-router-dom';
 import Food from './components/Food'
 import Warmup from './components/Warmup'
 import Name from './components/Name'
+import Colors from './components/Colors'
+import ABC from './components/ABC'
 
 
 
@@ -65,6 +67,8 @@ class App extends React.Component {
           <Route path="/Emotions" render={() => (<Emotions handleClick={this.handleClick} />)} />
           <Route path="/Food" render={() => (<Food handleClick={this.handleClick} />)} />
           <Route path="/Name" render={() => (<Name handleClick={this.handleClick} />)} />
+          <Route path="/Colors" render={() => (<Colors handleClick={this.handleClick} />)} />
+          <Route path="/ABC" render={() => (<ABC handleClick={this.handleClick} />)} />
 
 
         </main>

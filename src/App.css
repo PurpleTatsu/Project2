@@ -1,5 +1,7 @@
 body{
-  font-family: "tekton-pro-1","tekton-pro-2",sans-serif;
+  font-family: tekton-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
   background-color: #fefafd;
     background-image: url(https://hoppyenglish.com/wp-content/uploads/2019/03/img_1499.png);
     background-position: center top;
@@ -117,6 +119,21 @@ body{
 width: 100%;
 display: flex;
 }
+#instructions{
+  margin: 60px 0 0 5px;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+#colors-instructions, #abc-instructions{
+  width: 70%;
+  margin: 60px 0 0 5px;
+  text-align: center;
+}
+
+#helper-image{
+  width: 80%;
+  margin: 0;
+}
 
 #flashcards{
 display: flex;
@@ -134,14 +151,5 @@ width: auto;
 box-shadow: 5px 5px 5px #FFC8FF;
 }
 
-#instructions{
-  margin: 60px 0 0 5px;
-  background: rgba(255, 255, 255, 0.8);
-text-align: center;
-}
 
-#helper-image{
-  width: 80%;
-  margin: 0;
-}
 
