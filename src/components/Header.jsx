@@ -5,7 +5,9 @@ import { Link, Route } from 'react-router-dom';
 export default function Header() {
   return (
     <div id="nav">
-      <Link to="/"><h1> L.Hoppy!</h1></Link>
+      <Link to="/">
+        <img id="home" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/home.jpg?raw=true" />
+</Link>
       <Link to="/"><h2>Home</h2></Link>
       <h2>Drills</h2>
       <Link to="/"><h2>おうちでちょこっとEnglish</h2></Link>

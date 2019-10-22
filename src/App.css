@@ -115,7 +115,7 @@ body{
   margin: 5px;
   box-shadow: 5px 5px 5px lightskyblue;
 }
-#emotions, #weather, #food, #warmup, #abc, #colors, #daysoftheweek, #months, #name, #numbers, #yesno{
+#emotions, #weather, #food, #warmup, #abc, #colors, #week, #months, #name, #numbers, #yesno{
 width: 100%;
 display: flex;
 
@@ -144,14 +144,31 @@ justify-content: center;
 flex-direction: row;
 margin: 70px auto 0 10px;
 position: relative;
+align-content: flex-start;
 }
 
 #flashcards img {
+  cursor: pointer;
 margin: 8px;
 height: 200px;
 width: auto;
 box-shadow: 5px 5px 5px #FFC8FF;
 }
+#week-flashcards {
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+margin-right: 100px;
+margin-left: 100px;
+text-align: center;
+}
+#week-flashcards img {
+  cursor: pointer;
+  top: 100px;
+  margin: 8px;
+  width: 500px;
+  box-shadow: 5px 5px 5px #FFC8FF;
+  }
 #abc-flashcards{
   display: flex;
 }
@@ -165,4 +182,13 @@ section{
 section h1{
   font-size: 4em;
   margin: 10px 10px 10px 10px;
+}
+
+
+#show-me{
+  display: none;
+}
+
+#warmup a:hover #show-me{
+  display: block;
 }

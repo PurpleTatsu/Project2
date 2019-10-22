@@ -16,6 +16,7 @@ export default function Colors(props) {
         <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/colors-helper2.png?raw=true" />      </div>
 
       <div id="flashcards">
+      <h2>イメージをクリックしてください！</h2>
         <img id="red" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/red.png?raw=true" onClick={props.handleClick} alt="" />
         <img id="beige" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/beige.png?raw=true" onClick={props.handleClick} alt="" />
         <img id="white" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/white.png?raw=true" onClick={props.handleClick} alt="" />

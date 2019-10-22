@@ -53,7 +53,13 @@ class App extends React.Component {
     const flashcard = await getFlashcards(flashcardId)
     this.playSound(flashcard)
   }
+  // showModal = () => {
+  //   this.setState({ show: true });
 
+  // }
+  // hideModal = () => {
+  //   this.setState({ show: false });
+  // }
 
   render() {
     return (

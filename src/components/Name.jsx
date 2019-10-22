@@ -21,6 +21,7 @@ export default function Name(props) {
 
       <img></img>
       <div id="flashcards">
+      <h2>イメージをクリックしてください！</h2>
         <img className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/name-flashcard.png?raw=true" onClick={props.handleClick} alt="" />
 
       </div>

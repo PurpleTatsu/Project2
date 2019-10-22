@@ -36,6 +36,7 @@ export default function YesNo(props) {
         これを繰り返して先にハズレのポテトを引いてしまった方が負けです。このゲームに慣れてきたら、食べ物部分をキャラクターや他のお菓子（ここのポイントはDo you like ~ ?が使える事なので、英語で言葉でわからなければ私はそのまま日本語を使います。）に置き換えてゲームをします。</p>
       </div>
       <div id="flashcards">
+      <h2>イメージをクリックしてください！</h2>
         <img id="yes" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/yes.jpg?raw=true" onClick={props.handleClick} alt="" />
         <img id="no" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/no.jpg?raw=true" onClick={props.handleClick} alt="" />
 
