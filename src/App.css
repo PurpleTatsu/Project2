@@ -125,7 +125,7 @@ display: flex;
   background: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
-#colors-instructions, #abc-instructions{
+#colors-instructions, #abc-instructions, #yesno-instructions{
   width: 70%;
   margin: 60px 0 0 5px;
   text-align: center;
