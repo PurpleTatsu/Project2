@@ -118,6 +118,7 @@ body{
 #emotions, #weather, #food, #warmup, #abc, #colors, #daysoftheweek, #months, #name, #numbers, #yesno{
 width: 100%;
 display: flex;
+
 }
 #instructions{
   margin: 60px 0 0 5px;
@@ -128,6 +129,7 @@ display: flex;
   width: 70%;
   margin: 60px 0 0 5px;
   text-align: center;
+  width: 30%;
 }
 
 #helper-image{
@@ -150,6 +152,17 @@ height: 200px;
 width: auto;
 box-shadow: 5px 5px 5px #FFC8FF;
 }
+#abc-flashcards{
+  display: flex;
+}
 
+section{
+  height: 50px;
+  width: 50px;
+  margin: 0;
+}
 
-
+section h1{
+  font-size: 4em;
+  margin: 10px 10px 10px 10px;
+}
