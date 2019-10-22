@@ -14,6 +14,7 @@ import Name from './components/Name'
 import Colors from './components/Colors'
 import ABC from './components/ABC'
 import YesNo from './components/YesNo'
+import DaysOfTheWeek from './components/DaysOfTheWeek'
 
 
 
@@ -70,6 +71,7 @@ class App extends React.Component {
           <Route path="/Colors" render={() => (<Colors handleClick={this.handleClick} />)} />
           <Route path="/ABC" render={() => (<ABC handleClick={this.handleClick} />)} />
           <Route path="/YesNo" render={() => (<YesNo handleClick={this.handleClick} />)} />
+          <Route path="/DaysOfTheWeek" render={() => (<DaysOfTheWeek handleClick={this.handleClick} />)} />
 
 
         </main>
