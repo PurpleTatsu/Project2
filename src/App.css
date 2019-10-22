@@ -27,11 +27,19 @@ body{
   z-index: 1;
 }
 #nav a{
-  color:#FF00FF;
+  color:black;
   text-decoration: none;
+}
+#nav a:hover{
+  text-shadow: 2px 2px gray;
+
 }
 .home{
   height: 50px;
+}
+
+.home:hover{
+  box-shadow: 2px 2px pink;
 }
 
 #nav h1{
@@ -171,6 +179,8 @@ margin: 8px;
 height: 200px;
 width: auto;
 box-shadow: 5px 5px 5px #FFC8FF;
+border: 1px solid pink;
+
 
 }
 #week-flashcards {

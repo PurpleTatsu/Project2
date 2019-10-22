@@ -5,7 +5,7 @@ export default function YesNo(props) {
     <div id="yesno">
       <div id="yesno-instructions">
         <h2 id="title">Yes! No!</h2>
-        <img></img>
+        <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/foodcard.png?raw=true"></img>
         <p>Foodで使ったフードカードを使ってYes と No の使い方を練習しましょう！まずはフードカートの復習から始めます。</p>
 
         <h2>１・リピート練習</h2>
@@ -35,8 +35,8 @@ export default function YesNo(props) {
 
         これを繰り返して先にハズレのポテトを引いてしまった方が負けです。このゲームに慣れてきたら、食べ物部分をキャラクターや他のお菓子（ここのポイントはDo you like ~ ?が使える事なので、英語で言葉でわからなければ私はそのまま日本語を使います。）に置き換えてゲームをします。</p>
       </div>
+      
       <div id="flashcards">
-        <h2>イメージをクリックしてください！</h2>
         <img id="yes" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/yes.png?raw=true" onClick={props.handleClick} alt="" />
         <img id="no" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/no.png?raw=true" onClick={props.handleClick} alt="" />
 
