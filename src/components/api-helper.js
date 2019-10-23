@@ -7,7 +7,11 @@ export const getFlashcards = async (id) => {
   return audioUrl
 }
 
+export const getKanji = async (id) => {
+  let response = await axios.get(`http://api.voicerss.org/?key=${apiKey}&hl=ja-jp&src=${id}&f=48khz_16bit_stereo&r=-4&c=mp3`);
+  const audioUrl = response.config.url;
+  return audioUrl
+}
+
+
 export default getFlashcards
-
-
-

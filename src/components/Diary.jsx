@@ -5,7 +5,7 @@ import { Link, Route } from 'react-router-dom';
 export default function Diary() {
   return (
     <div id="diary" className="diary">
-      <Link to="/FamilyJP"><img id="family" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/1family.png?raw=true" title="" /></Link>
+      <Link to="/かぞく"><img id="family" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/1family.png?raw=true" title="" /></Link>
       <img id="likes" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/2likes.png?raw=true" title="" />
       <img id="familyvacation" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/3familyvacation.jpeg?raw=true" title="" />
       <img id="familyvacation" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/4familyvacation.jpg?raw=true" title="" />

@@ -7,6 +7,7 @@ import HoppyJapanese from './components/HoppyJapanese'
 import Weather from './components/Weather'
 import Emotions from './components/Emotions'
 import { getFlashcards } from './components/api-helper';
+import { getKanji } from './components/api-helper';
 import { Route } from 'react-router-dom';
 import Food from './components/Food'
 import Warmup from './components/Warmup'
@@ -15,7 +16,7 @@ import Colors from './components/Colors'
 import ABC from './components/ABC'
 import YesNo from './components/YesNo'
 import DaysOfTheWeek from './components/DaysOfTheWeek'
-import FamilyJP from './components/FamilyJP'
+import かぞく from './components/かぞく'
 
 
 
@@ -35,9 +36,7 @@ class App extends React.Component {
 
     if (playPromise !== undefined) {
       playPromise.then(function () {
-        console.log('Playing....');
       }).catch(function (error) {
-        console.log('Failed to play....' + error);
       });
     }
   }
@@ -46,9 +45,12 @@ class App extends React.Component {
     const flashcardId = event.target.id;
     console.log(flashcardId)
     const flashcard = await getFlashcards(flashcardId)
+    const kanji = await getKanji(flashcardId)
     this.playSound(flashcard)
-    const loadingGif = "https://media0.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.gif?cid=790b761144b2a9f84f9ac6f2dc0b7f905b3b463748c39aa2&rid=giphy.gif"
+    this.playSound(kanji)
   }
+
+
 
 
 
@@ -72,7 +74,7 @@ class App extends React.Component {
           <Route path="/ABC" render={() => (<ABC handleClick={this.handleClick} />)} />
           <Route path="/YesNo" render={() => (<YesNo handleClick={this.handleClick} />)} />
           <Route path="/DaysOfTheWeek" render={() => (<DaysOfTheWeek handleClick={this.handleClick} />)} />
-          <Route path="/FamilyJP" render={() => (<FamilyJP handleClick={this.handleClick} />)} />
+          <Route path="/かぞく" render={() => (<かぞく handleClick={this.handleClick} />)} />
 
 
         </main>

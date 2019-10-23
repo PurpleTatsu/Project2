@@ -324,6 +324,7 @@ ul{
 }
 #diary-entry h4{
 display: inline;
+cursor: pointer;
 }
 
 
