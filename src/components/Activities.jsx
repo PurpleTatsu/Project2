@@ -15,8 +15,6 @@ export default function Activities() {
       <Link to="/YesNo"><img src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/7yesno.png?raw=true" title="Yes Noを言えるようになろう！" /></Link>
       <Link to="/DaysOfTheWeek"><img src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/8daysoftheweek.png?raw=true" title="曜日の練習をしよう！" /></Link>
       <Link to="/Emotions"><img src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/9feelings.png?raw=true" title="気分を英語で言ってみよう！" /></Link>
-      {/* <Link to="/Months"><img src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/10months.png?raw=true" title="月と誕生日を練習しよう！" /></Link> 
-      <Link to="/Numbers"><img src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/11numbers.png?raw=true" title="1~60の練習をしよう！" /></Link> */}
     </div>
   )
 }
