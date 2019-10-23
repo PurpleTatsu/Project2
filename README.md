@@ -8,8 +8,8 @@
 It is a redesign of [Hoppy English, English at Home.](https://hoppyenglish.com/https-hoppyenglish-com-%e3%81%8a%e3%81%86%e3%81%a1%e3%81%a7%e3%81%a1%e3%82%87%e3%81%93%e3%81%a3%e3%81%a8english%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9-frame-nonceb46a2e6b3b/)
 
 ## Wireframes
-![Landing page](https://github.com/PurpleTatsu/Project2/blob/master/wireframes/wireframe2.png?raw=true)
-![Drills](https://github.com/PurpleTatsu/Project2/blob/master/wireframes/wireframe1.png?raw=true)
+![Landing page](https://github.com/PurpleTatsu/Project2/blob/master/src/wireframes/wireframe2.png?raw=true)
+![Drills](https://github.com/PurpleTatsu/Project2/blob/master/src/wireframes/wireframe1.png?raw=true)
 
 ### MVP/PostMVP
  #### MVP
