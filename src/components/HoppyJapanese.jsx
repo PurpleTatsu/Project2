@@ -1,5 +1,5 @@
 import React from 'react';
-import Activities from './Activities';
+import Diary from './Diary';
 
 
 export default function HoppyJapanese() {
@@ -10,9 +10,8 @@ export default function HoppyJapanese() {
         <p>A Japanese woman Yu-chan is going to share her story from her life looking back on her diary. She is 66 years old now and she has had a wonderful life with her sister Mi-chan and her parents. You can practice Japanese through her diary.</p>    </div>
       <div id="diary">
         <h2>Diary of Yu-chan</h2>
+        <Diary />
 
-
-        <Activities />
       </div>
 
 
