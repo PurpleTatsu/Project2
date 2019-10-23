@@ -20,7 +20,6 @@ export default function Name(props) {
         <img id="helper-image" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/name-helper3.png?raw=true" />
       </div>
       <div id="name-flashcards">
-        <h2>イメージをクリックしてください！</h2>
         <img id="what's his name" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/name-flashcard.png?raw=true" onClick={props.handleClick} alt="" />
 
       </div>
