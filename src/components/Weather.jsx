@@ -18,7 +18,6 @@ export default function Weather(props) {
 </p>
       </div>
       <div id="flashcards">
-      <h2>イメージをクリックしてください！</h2>
         <img id="sunny" className="flashcard" src={require("/Users/Tatsu/SEI/project-2/src/components/images/sunny.png")} onClick={props.handleClick} alt="" />
         <img id="rainy" className="flashcard" src={require("/Users/Tatsu/SEI/project-2/src/components/images/rainy.png")} onClick={props.handleClick} alt="" />
         <img id="cloudy" className="flashcard" src={require("/Users/Tatsu/SEI/project-2/src/components/images/cloudy.png")} onClick={props.handleClick} alt="" />

@@ -24,7 +24,6 @@ export default function Emotions(props) {
         </ul>
       </div>
       <div id="flashcards">
-        <h2>イメージをクリックしてください！</h2>
           <img id="hungry" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/hungry.png?raw=true" onClick={props.handleClick} />
 
           <img id="sleepy" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/sleepy.png?raw=true" onClick={props.handleClick} />

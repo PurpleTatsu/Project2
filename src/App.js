@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import axios from 'axios';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import UchiDeEnglish from './components/UchiDeEnglish'
@@ -25,18 +24,11 @@ class App extends React.Component {
     }
   }
 
-  // componentDidMount = async () => {
-  //   const flashcard = await getFlashcards(this.state.apiKey, this.state.id)
-  //   console.log(flashcard)
-  //   this.setState({
-  //     id: flashcard
-  //   })
-  // }
-
+  //referenced from StackOverflow
   playSound = (flashcard) => {
-    var audio = new Audio(flashcard)
+    let audio = new Audio(flashcard)
     audio.type = 'audio/mp3';
-    var playPromise = audio.play();
+    let playPromise = audio.play();
 
     if (playPromise !== undefined) {
       playPromise.then(function () {
@@ -53,13 +45,7 @@ class App extends React.Component {
     const flashcard = await getFlashcards(flashcardId)
     this.playSound(flashcard)
   }
-  // showModal = () => {
-  //   this.setState({ show: true });
-
-  // }
-  // hideModal = () => {
-  //   this.setState({ show: false });
-  // }
+ 
    
 
   render() {

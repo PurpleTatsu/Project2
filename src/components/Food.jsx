@@ -17,7 +17,6 @@ export default function Food(props) {
 
       </div >
       <div id="flashcards">
-      <h2>イメージをクリックしてください！</h2>
         <img id="chocolate" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/chocolate.jpg?raw=true" onClick={props.handleClick} alt="" />
         <img id="ice-cream" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/ice-cream.jpg?raw=true" onClick={props.handleClick} alt="" />
         <img id="french-fries" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/french-fries.jpg?raw=true" onClick={props.handleClick} alt="" />

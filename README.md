@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project2
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+![Coming into project 2 like](https://media.giphy.com/media/13871fiv9kBfkQ/giphy.gif)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
+Drill based language learning, redesign of [Hoppy English, English at Home](https://hoppyenglish.com/https-hoppyenglish-com-%e3%81%8a%e3%81%86%e3%81%a1%e3%81%a7%e3%81%a1%e3%82%87%e3%81%93%e3%81%a3%e3%81%a8english%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9-frame-nonceb46a2e6b3b/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## MVP
+A navigatable site where clicking on a flashcard image results in a call to the API which reads the card.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Strech Goals
+Additional actitivies;
+Card flip animations, so picture is on one side, and text is on another;
+Language flip, so Japanese version is supported as well--i.e. Japanese for English-speaking children
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Wireframes
+![Landing page](https://github.com/PurpleTatsu/Project2/blob/master/wireframes/wireframe2.png?raw=true)
+![Drills](https://github.com/PurpleTatsu/Project2/blob/master/wireframes/wireframe1.png?raw=true)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Forecasted issues
+Pronunciation issues with API
+Solution: Changing spelling using if statements
 
-### `npm run eject`
+## API
+[VoiceRSS](http://api.voicerss.org) - text to speech
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Component Library
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Notes
+I was really inspired by the design featured https://www.mouchtaris.com/interior-design since my project is image heavy. However I realized that the original design worked because it was also very text light, and I have signficantly more. Thus, I have to rethink my design so the font doesn't become too small.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+why are actitivites loading mid page?

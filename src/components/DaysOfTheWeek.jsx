@@ -11,7 +11,6 @@ export default function DaysOfTheWeek(props) {
         <p>歌を選ぶときは曜日を繰り返し歌わない曲がオススメです。指で曜日をさしながら歌いましょう！</p>
       </div>
       <div id="week-flashcards">
-        <h2>イメージをクリックしてください！</h2>
         <img id="sunday" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/sunday.png?raw=true" onClick={props.handleClick} alt="" />
         <img id="monday" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/monday.png?raw=true" onClick={props.handleClick} alt="" />
         <img id="tuesday" className="flashcard" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/tuesday.png?raw=true" onClick={props.handleClick} alt="" />

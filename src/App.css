@@ -62,7 +62,9 @@ body{
   margin-top: 50px;
   position: relative;
   left: 0px;
-  width: 33%;
+  width: 35%;
+  padding-left: 50px;
+
 }
 #intro h1{
   font-size: 2em;
@@ -71,6 +73,9 @@ body{
 #intro p{
   font-size: 1em;
   margin: 5px;
+  line-height: 2.1em;;
+
+
 }
 
 /* Below: I really liked the layout from this interior design site and used the developer tools to see how they achieved a uniform look https://www.mouchtaris.com/interior-design */
@@ -148,7 +153,7 @@ display: flex;
 }
 #instructions{
   margin: 60px 0 0 5px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255,255,255,0.8);
   text-align: center;
 }
 #colors-instructions, #abc-instructions, #yesno-instructions{
@@ -156,6 +161,10 @@ display: flex;
   margin: 60px 0 0 5px;
   text-align: center;
   width: 30%;
+}
+#colors-instructions img{
+  height: 200px;
+  width: auto;
 }
 
 #helper-image{

@@ -1,6 +1,8 @@
 // import React from 'react';
 
 
+// https://media0.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.gif?cid=790b76114cd04b7fcee8aa670b9898e264631b3f99e18484&rid=giphy.gif
+
 // export default SomeComponent() => {
 //   componentWillMount() {
 //     this.doAThing = this.doAThing.bind(this);
