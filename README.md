@@ -22,6 +22,7 @@ It is a redesign of [Hoppy English, English at Home.](https://hoppyenglish.com/h
 * Cut down delay time of flashcard 'click' to audio return
 * Additional CSS styling: card flip animations, character info modals
 * Incorporate Hoppy Japanese: drills for Japanese learners
+* Include flashcard pdf download link
 
 ## API
 [VoiceRSS](http://api.voicerss.org) - text to speech

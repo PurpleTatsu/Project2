@@ -11,7 +11,7 @@ export default function Header() {
       <Link to="/"><h2>Home</h2></Link>
       <h2>Drills</h2>
       <Link to="/"><h2>おうちでちょこっとEnglish</h2></Link>
-      <h2>Hoppy Japanese</h2>
+      <Link to="/HoppyJapanese"><h2>Hoppy Japanese</h2></Link>
     </div>
   )
 }

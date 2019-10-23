@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import UchiDeEnglish from './components/UchiDeEnglish'
+import HoppyJapanese from './components/HoppyJapanese'
 import Weather from './components/Weather'
 import Emotions from './components/Emotions'
 import { getFlashcards } from './components/api-helper';
@@ -56,8 +57,10 @@ class App extends React.Component {
         <div className="App">
           <Header />
           <main>
-
+          
             <Route exact path="/" render={() => <UchiDeEnglish />} />
+            <Route path="/HoppyJapanese" render={() => (<HoppyJapanese handleClick={this.handleClick} />)} />
+
             <Route path="/Warmup" render={() => (<Warmup handleClick={this.handleClick} />)} />
 
             <Route path="/Weather" render={() => (<Weather handleClick={this.handleClick} timeout={3000} />)} />
