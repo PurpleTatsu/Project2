@@ -16,7 +16,7 @@ import Colors from './components/Colors'
 import ABC from './components/ABC'
 import YesNo from './components/YesNo'
 import DaysOfTheWeek from './components/DaysOfTheWeek'
-import かぞく from './components/かぞく'
+import MetaTags from 'react-meta-tags';
 
 
 
@@ -46,15 +46,19 @@ class App extends React.Component {
     console.log(flashcardId)
     const flashcard = await getFlashcards(flashcardId)
     this.playSound(flashcard)
-
-    const kanji = await getKanji(flashcardId)
-    this.playSound(kanji)
   }
 
   render() {
-    const { open } = this.state;
     return (
       <div className="App">
+        <MetaTags>
+            <title>English At Home</title>
+            <meta id="meta-description" name="description" content="Katie Gray GA Project 2." />
+            <meta id="og-title" property="og:title" content="English at Home" />
+            <meta id="og-image" property="og:image" content="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/welcome.png?raw=true" />
+        
+        </MetaTags>
+        
         <Header />
         <main>
 
@@ -69,7 +73,6 @@ class App extends React.Component {
           <Route path="/ABC" render={() => (<ABC handleClick={this.handleClick} />)} />
           <Route path="/YesNo" render={() => (<YesNo handleClick={this.handleClick} />)} />
           <Route path="/DaysOfTheWeek" render={() => (<DaysOfTheWeek handleClick={this.handleClick} />)} />
-          <Route path="/かぞく" render={() => (<かぞく handleClick={this.handleClick} />)} />
 
         </main>
         <Footer />

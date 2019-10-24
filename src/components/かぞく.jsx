@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link, Route } from 'react-router-dom';
 
-export default function FamilyJP(props) {
+
+export default function かぞく(props) {
   window.scrollTo(0, 0)
   return (
     <div id="diary-entry">
