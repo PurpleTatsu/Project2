@@ -6,7 +6,7 @@ export default function Diary() {
   window.scrollTo(0, 0)
   return (
     <div id="diary" className="diary">
-      <Link to="/かぞく">
+      <Link to="/hoppyjapanese/FamilyDiary">
         <img id="family" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/1family.png?raw=true" title="私の家族" />
         <p>私の家族</p>
       </Link>

@@ -3,7 +3,7 @@ import Diary from './Diary';
 import axios from 'axios';
 import { getKanji } from './api-helper';
 import { Route } from 'react-router-dom';
-import かぞく from './かぞく'
+import FamilyDiary from './FamilyDiary'
 
 
 const apiKey = "da50fcc8d81f46e7aa35e7354864e6b1"
@@ -17,12 +17,12 @@ export default class HoppyJapanese extends React.Component {
     }
   }
 
-   componentDidMount = async (id) => {
-      let response = await axios.get(`http://api.voicerss.org/?key=${apiKey}&hl=ja-jp&src=${id}&f=48khz_16bit_stereo&r=-4&c=mp3`);
-      const audioUrl = response.config.url;
-      return audioUrl
-    }
-  
+  componentDidMount = async (id) => {
+    let response = await axios.get(`http://api.voicerss.org/?key=${apiKey}&hl=ja-jp&src=${id}&f=48khz_16bit_stereo&r=-4&c=mp3`);
+    const audioUrl = response.config.url;
+    return audioUrl
+  }
+
   playSound = (flashcard) => {
     let audio = new Audio(flashcard)
     audio.type = 'audio/mp3';
@@ -55,7 +55,9 @@ export default class HoppyJapanese extends React.Component {
           <h2>Diary of Yu-chan</h2>
           <Diary />
           <main>
-          <Route path="/かぞく" render={() => (<かぞく handleClick={this.handleClick} />)} />
+            <Route path="/hoppyjapanese/FamilyDiary" render={() => (
+              <FamilyDiary handleClick={this.handleClick} />
+            )} />
           </main>
         </div>
 
