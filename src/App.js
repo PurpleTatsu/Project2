@@ -45,8 +45,9 @@ class App extends React.Component {
     const flashcardId = event.target.id;
     console.log(flashcardId)
     const flashcard = await getFlashcards(flashcardId)
-    const kanji = await getKanji(flashcardId)
     this.playSound(flashcard)
+
+    const kanji = await getKanji(flashcardId)
     this.playSound(kanji)
   }
 

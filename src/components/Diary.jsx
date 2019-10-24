@@ -3,6 +3,7 @@ import { Link, Route } from 'react-router-dom';
 
 
 export default function Diary() {
+  window.scrollTo(0, 0)
   return (
     <div id="diary" className="diary">
       <Link to="/かぞく">
@@ -14,7 +15,7 @@ export default function Diary() {
         <img id="likes" className="likes-desc" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/2likes.png?raw=true" title="" />
         <p>好きなこと</p>
       </div>
-      
+
       <div>
         <img id="familyvacation" className="likes-desc" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/3familyvacation.jpeg?raw=true" title="" />
         <p>家族旅行 1日目</p>

@@ -3,7 +3,10 @@ import Diary from './Diary';
 
 
 export default function HoppyJapanese() {
+  window.scrollTo(0, 0)
   return (
+
+
     <div id="home">
       <div id="diary-intro">
         <h1>Welcome to Hoppy Japanese</h1>

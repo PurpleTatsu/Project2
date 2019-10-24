@@ -2,6 +2,7 @@ import React from 'react';
 
 
 export default function Food(props) {
+  window.scrollTo(0, 0)
   return (
     <div id="food">
       <div id="instructions" >

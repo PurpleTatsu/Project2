@@ -2,6 +2,7 @@ import React from 'react';
 
 
 export default function Warmup() {
+  window.scrollTo(0, 0)
   return (
     <div id="warmup">
       <div id="instructions">

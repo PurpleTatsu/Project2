@@ -2,6 +2,7 @@ import React from 'react';
 
 
 export default function Name(props) {
+  window.scrollTo(0, 0)
   return (
     <div id="name">
       <div id="instructions">

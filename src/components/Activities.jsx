@@ -4,6 +4,7 @@ import { Link, Route } from 'react-router-dom';
 
 
 export default function Activities() {
+  window.scrollTo(0, 0)
   return (
     <div id="activities" className="activities">
       <Link to="/Warmup"><img id="warmup" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/1warmup.png?raw=true" title="英語の練習の前にやってみよう！" /></Link>

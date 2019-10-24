@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function DaysOfTheWeek(props) {
+  window.scrollTo(0, 0)
   return (
     <div id="week">
       <div id="instructions">

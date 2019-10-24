@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function ABC(props) {
+  window.scrollTo(0, 0)
   return (
     <div id="abc">
       <div id="abc-instructions" >

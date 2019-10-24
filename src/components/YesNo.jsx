@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function YesNo(props) {
+  window.scrollTo(0, 0)
   return (
     <div id="yesno">
       <div id="yesno-instructions">

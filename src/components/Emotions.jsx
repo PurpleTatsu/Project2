@@ -3,6 +3,7 @@ import { Link, Route } from 'react-router-dom';
 
 
 export default function Emotions(props) {
+  window.scrollTo(0, 0)
   return (
     <div id="emotions">
       <div id="instructions">

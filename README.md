@@ -38,3 +38,4 @@ For my playAudio function, I referenced the code at here [Stack Overflow.](https
 ## Issues and Resolutions
 * Pronunciation issues with API; solution: changed spelling of id
 * Forgot "return" on App.js
+* Footer and sticker divs don't properly align in media query view between 300 and 750 but no time to fix right now.

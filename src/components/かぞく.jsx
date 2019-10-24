@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function FamilyJP(props) {
+  window.scrollTo(0, 0)
   return (
     <div id="diary-entry">
       <h2>私の家族</h2>
