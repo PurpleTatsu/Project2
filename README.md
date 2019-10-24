@@ -33,7 +33,7 @@ API Helper - calls the API and generates a URL to pass onto a flashcard
 ## Notes
 I was really inspired by the design featured https://www.mouchtaris.com/interior-design since my project is image heavy. However I realized that the original design worked because it was also very text light, and I have signficantly more. Thus, I have to rethink my design so the font doesn't become too small.
 
-why are actitivites loading mid page?
+For my playAudio function, I referenced the code at here [Stack Overflow.](https://stackoverflow.com/questions/47893690/how-to-play-an-audio-file-from-an-external-url-using-javascript)
 
 ## Issues and Resolutions
 * Pronunciation issues with API; solution: changed spelling of id
