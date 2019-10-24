@@ -50,10 +50,6 @@ class App extends React.Component {
     this.playSound(kanji)
   }
 
-
-
-
-
   render() {
     const { open } = this.state;
     return (
@@ -63,9 +59,7 @@ class App extends React.Component {
 
           <Route exact path="/" render={() => <UchiDeEnglish />} />
           <Route path="/HoppyJapanese" render={() => (<HoppyJapanese handleClick={this.handleClick} />)} />
-
           <Route path="/Warmup" render={() => (<Warmup handleClick={this.handleClick} />)} />
-
           <Route path="/Weather" render={() => (<Weather handleClick={this.handleClick} timeout={3000} />)} />
           <Route path="/Emotions" render={() => (<Emotions handleClick={this.handleClick} />)} />
           <Route path="/Food" render={() => (<Food handleClick={this.handleClick} />)} />
@@ -75,7 +69,6 @@ class App extends React.Component {
           <Route path="/YesNo" render={() => (<YesNo handleClick={this.handleClick} />)} />
           <Route path="/DaysOfTheWeek" render={() => (<DaysOfTheWeek handleClick={this.handleClick} />)} />
           <Route path="/かぞく" render={() => (<かぞく handleClick={this.handleClick} />)} />
-
 
         </main>
         <Footer />
