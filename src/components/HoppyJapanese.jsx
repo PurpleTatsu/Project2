@@ -42,7 +42,21 @@ export default class HoppyJapanese extends React.Component {
     const kanji = await getKanji(flashcardId)
     this.playSound(kanji)
   }
+  //
+   createMarkup=()=> {
+    return {__html: 'First &middot; Second'};
+   }
+  
+  getFurigana = () => {
+    return <div dangerouslySetInnerHTML id="furigana">{this.title}</div>
+  }
 
+  handleClick = (event) => {
+    const furigana = event.target.title;
+    console.log(furigana)
+    this.getFurigana(furigana)
+  }
+  //
 
   render() {
     return (

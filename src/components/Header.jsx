@@ -9,8 +9,8 @@ export default function Header() {
         <img className="home" src="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/home.jpg?raw=true" />
       </Link>
       <Link to="/"><h2>Home</h2></Link>
-      <h2>Drills</h2>
-      <Link to="/"><h2>おうちでちょこっとEnglish</h2></Link>
+      <Link to="/Drills"><h2>Drills</h2></Link>
+      <Link to="/UchiDeEnglish"><h2>おうちでちょこっとEnglish</h2></Link>
       <Link to="/HoppyJapanese"><h2>Hoppy Japanese</h2></Link>
     </div>
   )

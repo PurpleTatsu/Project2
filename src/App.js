@@ -17,6 +17,8 @@ import ABC from './components/ABC'
 import YesNo from './components/YesNo'
 import DaysOfTheWeek from './components/DaysOfTheWeek'
 import MetaTags from 'react-meta-tags';
+import Home from './components/Home'
+import Drills from './components/Drills'
 
 
 
@@ -48,21 +50,24 @@ class App extends React.Component {
     this.playSound(flashcard)
   }
 
+
+
   render() {
     return (
       <div className="App">
         <MetaTags>
-            <title>English At Home</title>
-            <meta id="meta-description" name="description" content="Katie Gray GA Project 2." />
-            <meta id="og-title" property="og:title" content="English at Home" />
-            <meta id="og-image" property="og:image" content="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/welcome.png?raw=true" />
-        
+          <title>English At Home</title>
+          <meta id="meta-description" name="description" content="Katie Gray GA Project 2." />
+          <meta id="og-title" property="og:title" content="English at Home" />
+          <meta id="og-image" property="og:image" content="https://github.com/PurpleTatsu/Project2/blob/master/src/components/images/welcome.png?raw=true" />
+
         </MetaTags>
-        
+
         <Header />
         <main>
+          <Route exact path="/" render={() => <Home />} />
 
-          <Route exact path="/" render={() => <UchiDeEnglish />} />
+          <Route path="/UchiDeEnglish" render={() => <UchiDeEnglish />} />
           <Route path="/HoppyJapanese" render={() => (<HoppyJapanese handleClick={this.handleClick} />)} />
           <Route path="/Warmup" render={() => (<Warmup handleClick={this.handleClick} />)} />
           <Route path="/Weather" render={() => (<Weather handleClick={this.handleClick} timeout={3000} />)} />
@@ -73,7 +78,8 @@ class App extends React.Component {
           <Route path="/ABC" render={() => (<ABC handleClick={this.handleClick} />)} />
           <Route path="/YesNo" render={() => (<YesNo handleClick={this.handleClick} />)} />
           <Route path="/DaysOfTheWeek" render={() => (<DaysOfTheWeek handleClick={this.handleClick} />)} />
-        
+          <Route path="/Drills" render={() => (<Drills handleClick={this.handleClick} />)} />
+
         </main>
         <Footer />
       </div>
